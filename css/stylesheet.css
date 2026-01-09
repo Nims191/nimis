@@ -1,0 +1,64 @@
+#wrapp1 {
+    display: grid;
+    grid-template-areas:
+        "h1  h1  nv"
+        "nv2  nv2  nv"
+        "sc  mn  mn"
+        "ft  ft  ft";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50% 4fr 4fr 4fr;
+
+}
+#in img{
+    width: 60%;
+    height: 60%;
+    margin-left:0%;
+margin-right: 0%;
+}
+#button {
+    background-color: aquamarine;
+    border-radius: 20px;
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+#head1 {
+    background-color: aqua;
+    grid-area: h1;
+}
+
+#in {
+    background-color: blue;
+    grid-area: nv; 
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+#nav1 {
+    background-color: bisque;
+    grid-area: nv; 
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+#nav2 {
+    grid-area: nv2;
+    background-color: bisque;
+}
+
+#sec1 {
+    background-color: lightcoral;
+    grid-area: sc;
+}
+
+#main1 {
+    background-color: lightgreen;
+    grid-area: mn;
+}
+
+#foot1 {
+    background-color: lightgray;
+    grid-area: ft;
+}
