@@ -6,34 +6,52 @@
         "sc  mn  mn"
         "ft  ft  ft";
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 60% 30% 4fr 4fr;
-
+    grid-template-rows: 150px 100px 4fr 4fr;
 }
 body {
     margin: 0%;
+    background-color: #f6efe8;
+}
+#img2 {
+border-top-right-radius: 2em;
+border-bottom-right-radius: 2em;
+}
+#img1 {
+    border-top-left-radius: 2em;
+    border-bottom-left-radius: 2em;
 }
 #in img{
     width: 40%;
     height: 40%;
     border-radius: 10px;
+    margin-top:20px ;
 }
 #button {
-    background-color: aquamarine;
+    background-color: #f6efe8;
     border-radius: 20px;
     text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+a{
+    text-decoration: none;
+   color: black;
 }
 #head1 {
-    background-color: aqua;
     grid-area: h1;
+    display: flex;
+    align-items: center;
 }
 #head1 img{
     width: 10%;
     border-radius: 100%;
+    margin-right:20% ;
 }
 
 
 #in {
-    background-color: blue;
+    background-color: #f6efe8;
     grid-area: nv; 
 display: flex;
 justify-content: center;
@@ -42,9 +60,11 @@ flex-direction: column;
 margin-left:10%;
 margin-right: 10%;
 border-radius: 10px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 150%;
 }
 #nav1 {
-    background-color: bisque;
+    background-color: #a5b58d;
     grid-area: nv; 
 display: flex;
 justify-content: center;
@@ -59,7 +79,7 @@ border-bottom-right-radius:20px;
 justify-content: center;
 align-items: center;
     grid-area: nv2;
-    background-color: bisque;
+    background-color: #a5b58d;
     border-bottom-left-radius: 20px;
     border-top-left-radius: 20px;
 }
@@ -70,11 +90,20 @@ align-items: center;
 }
 
 #main1 {
-    background-color: lightgreen;
+    margin-top: 20px;
     grid-area: mn;
+    display: flex;
+}
+#main1 img{
+    height: 400px;
+
 }
 
 #foot1 {
     background-color: lightgray;
     grid-area: ft;
+}
+#hdt {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 400%;
 }
